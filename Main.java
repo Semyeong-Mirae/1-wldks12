@@ -31,5 +31,6 @@ public class Main {
         System.out.println(calc.add(5, 3));
         System.out.println(calc.multiply(5, 3));
         System.out.println(Calculator.subtract(5, 3));
+        sc.close();
     }
 }
