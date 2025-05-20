@@ -28,9 +28,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println(calc.add(5, 3));
-        System.out.println(calc.multiply(5, 3));
-        System.out.println(Calculator.subtract(5, 3));
+        System.out.println(calc.add(a, b));
+        System.out.println(calc.multiply(a, b));
+        System.out.println(Calculator.subtract(a, b));
         sc.close();
     }
 }
